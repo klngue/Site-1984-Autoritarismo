@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formcss.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <div class="logo_menu">
+            <a class="titulo-menu"><img class="img_logo_menu" src="/img/logo.png"></a>
+        </div>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="index2.html" class="link">1984</a></li>
+                <li><a href="index3.html" class="link">Atualmente</a></li>
+                <li><a href="quiz1.html" class="link">Quiz</a></li>
+                <li><a href="form.html" class="link">Contate-nos</a></li>
+                <li><a href="autores.html" class="link">Autores</a></li>
+				<li><a href="form-en.html" class="link"><img src="/img/bandeira_eua.png" width="30" height="20"></a></li>
+            </ul>
+    </header>
+    <main class="corpo">
+        <div class="container">
+            <div class="content-box rounded mx-auto d-block">
+                <form class="rounded mx-auto d-block">
+                    <fieldset>
+                        <legend class="rounded mx-auto d-block"><h2>Regimes Autoritários</h2></legend>
+                            <fieldset>
+                                <legend class="rounded mx-auto d-block"><h3>Dados Pessoais</h3></legend>
+                                <div class="grid">
+                                    <div class="inputbox1">
+                                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                                        <label for="nome" class="labelinput">Nome</label>
+                                    </div>
+                                    <div class="inputbox1">
+                                        <input type="text" name="email" id="email" class="inputUser" required>
+                                        <label for="email" class="labelinput">Email</label>
+                                    </div>
+                                    <div class="inputbox1">
+                                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                                        <label for="telefone" class="labelinput">Telefone</label>
+                                    </div>
+                                    <div class="inputbox1">
+                                        <input type="date" name="nascimento" id="nascimento" class="inputUser" required>
+                                        <label for="nascimento" class="labelinput">Nascimento</label>
+                                    </div>
+                                </div>    
+                            </fieldset>
+                            <fieldset>
+                                <p>Você já leu o livro 1984 ?</p>
+                                <div class="inputradiobox">
+                                    <label class= "radio">Sim
+                                        <input type="radio" name="radio" id="radio" value="sim">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class= "radio">Não
+                                        <input type="radio" name="radio" id="radio" value="nao">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>  
+                                <div class="textarea">
+                                    <p>Se sim, escreva, em poucas palavras, a sua opinião :</p>
+                                    <textarea name="opiniao" id="opiniao" cols="25" rows="5"></textarea>
+                                </div>
+                                <br>
+                                <div class="textarea">
+                                    <p>Para você o que a democracia significa ?</p>
+                                    <br>
+                                    <textarea name="democracia" id="democracia" cols="25" rows="5"></textarea>
+                                </div>
+                                <div class="textarea">
+                                    <p>Para você o que significa ser autoritário ?</p>
+                                    <br>
+                                    <textarea name="autoritario" id="autoritario" cols="25" rows="5"></textarea>
+                                </div>
+                                <div class="textarea">
+                                    <p>Se hoje, você vivesse em um regime autoritário, como seria sua vida ?</p>
+                                    <br>
+                                    <textarea name="regime" id="regime" cols="25" rows="5"></textarea>
+                                </div>
+
+                            </fieldset>
+                        <input type="submit" name="submit" id="submit">    
+                    </fieldset>
+                </form>
+            </div>
+            <div class="flex_img rounded mx-auto">
+                <div class="bx_img img_1 ">
+                    <img class="img_form img-fluid" src="/img/research.png" >
+                </div>
+                <div class="bx_img img_2 ">
+                    <img class="img_form img-fluid" src="/img/contato.png" >
+                </div>
+            </div>    
+        </div>       
+    </main>
+</body>
+</html>
