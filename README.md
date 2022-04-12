@@ -1,0 +1,2 @@
+Site inspirado no livro 1984 de George Orwell, com o tema de Regimes Autoritários.
+O site foi desenvolvido para o projeto integrado da Etec Parque Belém pelo grupo composto por : Lucas Rodrigues Grecco, Gustavo Guering, Laura Cintra e Gabriel Amarante.
